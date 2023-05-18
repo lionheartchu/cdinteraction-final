@@ -1,0 +1,118 @@
+body{
+    font-family: 'Coda';
+    margin:3%;
+    font-size: 1.8vw;
+    background:#CAECFF;
+    line-height: 1.7;
+    color:navy;
+}
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 1.5vw solid transparent;
+    border-right: 1.5vw solid transparent;
+    border-top: 2vw solid lightskyblue;
+    margin-left:5%;
+    margin-top:1%;
+    /* margin-bottom:-3%; */
+  }
+#normal{
+    width:30vw;
+    margin-left:-9%;
+    margin-top:-4%;
+}
+#soso{
+    margin-left: -32.5%;
+    width:30vw;
+    display: none;
+}
+#unhappy{
+    width:30vw;
+    margin-left: -32.5%;
+    display: none;
+}
+#sad{
+    width:30vw;
+    margin-left: -32.5%;
+    display:none;
+}
+#angry{
+    width:30vw;
+    margin-left: -32.5%;
+    display:none;
+}
+#happy{
+    width:30vw;
+    margin-left: -32.5%;
+    display:none;
+}
+#heart{
+    width:3vw;
+    margin-left:12.5%;
+    position:absolute;
+    display: none;
+}
+.wrapper{
+    border-style: dashed;
+    border-radius: 1.5vw;
+    border-width:0.4vw;
+    padding:2.5%;
+    background: lightskyblue;
+    border-color: white;
+}
+button{
+    font-family: 'Coda';
+    margin-top:2%;
+    display:inline;
+    border:none;
+    border-radius:0.5vw;
+    padding:0.5% 1% 0.5% 1%;
+    margin-left:4%;
+    font-size:1.5vw;
+}
+button:hover{
+    background:lightgray;
+    color:white;
+}
+input{
+    border:none;
+    margin-top:1.5%;
+    border-radius:0.2vw;
+    height:2.2vw;
+    font-family: 'Coda';
+    font-size:1.4vw;
+}
+#choice1a{
+    display:none;
+}
+#choice1b{
+    display:none;
+}
+#choice1a2{
+    display:none;
+}
+#choice1b2{
+    display:none;
+}
+#choice1b3{
+    display:none;
+}
+#choice2a{
+    display:none;
+}
+#choice2b{
+    display:none;
+}
+
+#inputBar1{
+    display: none;
+}
+#inputBar2{
+    display: none;
+}
+#inputBar3{
+    display: none;
+}
+#t5{
+    margin-top:3%;
+}
